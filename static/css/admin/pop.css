@@ -91,7 +91,7 @@ span.ipt_tips,span.ipt_error,span.ipt_right{line-height:20px;padding:2px 2px 2px
 span.ipt_tips{color:#959595;background-position:0px -116px;}
 span.ipt_error{color:red;background-position:0px -65px;display:none;}
 span.ipt_right{background-position:0px -177px;display:none; }
-input.btn{height:25px;border:0;color:#4668B0;font-weight:bold;font-size:16px;font-family:"微软雅黑";cursor:pointer;text-align:center;padding:0 7px;
+input.btn{height:25px;border:0;color:#4668B0;font-weight:bold;font-size:16px;font-family:"微软雅黑";cursor:pointer;text-align:center;padding:0 7px 2px 7px;
 		 text-shadow:1px 1px 0px #fff;
 		  border-radius:3px;border-top:1px solid rgba(255,255,255,0.5);
 		  box-shadow:0 1px 1px 0px rgba(144,144,144,0.9);
