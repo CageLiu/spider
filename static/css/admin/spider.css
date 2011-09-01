@@ -1,2 +1,4 @@
-﻿.spider_page h2{height:30px;font-size:14px;font-weight:bold;line-height:30px;border-bottom:1px solid #ddd;margin-bottom:15px;}
+﻿.spider_form{padding:20px 100px 30px;}
+.spider_page h2{height:30px;font-size:14px;font-weight:bold;line-height:30px;border-bottom:1px solid #ddd;margin-bottom:15px;}
 .spider_page input.ipt{width:auto}
+.spider_form span.btn_bg{margin-right:30px;margin-top:10px;}
