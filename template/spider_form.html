@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>添加栏目</title>
+	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="../static/css/admin/pop.css" />
+	<link type="text/css" rel="stylesheet" href="../static/css/admin/spider.css" />
+	<script type="text/javascript" src="../static/js/public/jquery.min.js"></script>
+	<script type="text/javascript" src="../static/js/public/jplugins/jquery.cookie.js"></script>
+	<script type="text/javascript" src="../static/js/admin/category.js"></script>
+</head>
+
+<body>
+<div class="spider_form">
+		<div class="spider_page">
+			<p class="input_list"><label for="">爬虫名称：</label><input type="text"  size="25" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">爬虫唯一标识：</label><input type="text" size="25" value="爬虫001" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">介绍：</label><input type="text" size="45" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">[新闻系统]栏目ID：</label><input type="text" size="25" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">要爬取的页面首页：</label><input type="text" size="45" value="http://finance.eastmoney.com/news/cgnjj.html" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">运行频率：</label><select>
+					<option>五分钟</option>
+					<option>十分钟</option>
+					<option>半小时</option>
+				<select/>
+			</p>
+		</div>
+		<div class="spider_page">
+			<h2>【链接爬取规则】</h2>
+			<p class="input_list"><label for="">链接抓取规则：</label><input type="text" size="45" value="http://finance.eastmoney.com/news/cgnjj.html" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">链接包含字符(可选)：</label><input type="text" size="25" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">链接包不含字符(可选)：</label><input type="text" size="25" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">翻页链接抓取规则：</label><input type="text" size="45" value="http://finance.eastmoney.com/news/cgnjj.html" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">翻页链接包含字符（可选）：</label><input type="text" size="25" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">最大抓取页面数（0=不限制）：</label><input type="text" size="15" value="5" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+		</div>
+		<div class="spider_page">
+			<h2>【内容爬取规则】</h2>
+			<p class="input_list"><label for="">标题爬取规则：</label><input type="text" size="55" value="div[class=titlebox]>div[class=newsContent]>div[class=newText new]>h1" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">时间爬取规则：</label><input type="text" size="25" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">时间格式：</label><input type="text" size="25" value="%Y年%m月%d日%H:%M" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">来源爬取规则：</label><input type="text" size="45" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">内容爬取规则：</label><input type="text" size="25" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">内容过滤：</label><input type="text" size="35" value="div[class=reading]|span|a" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+			<p class="input_list"><label for="">翻页链接爬取规则：</label><input type="text" size="25" class="ipt" id="" />
+				<span class="ipt_tips">请输入栏目名称！</span>
+				<span class="ipt_error">请输入栏目名称！</span>
+				<span class="ipt_right">&nbsp;&nbsp;</span>
+			</p>
+		</div>
+</div>
+</body>
+</html>

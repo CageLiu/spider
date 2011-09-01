@@ -100,7 +100,7 @@ input.btn{height:25px;border:0;color:#4668B0;font-weight:bold;font-size:16px;fon
 		background:-o-linear-gradient(bottom,rgba(220,220,220,0.6),rgba(239,239,239,0.6));
 		background-color:#fff;
 		}	
-input.ipt{width:165px;height:22px;border:1px solid #a6a6a6;padding-left:3px;color:#ccc;
+input.ipt{width:165px;height:22px;border:1px solid #a6a6a6;padding-left:3px;color:#666;
 		 border-radius:5px;
 		 box-shadow: inset 1px 2px 3px #ddd;
 		 background-color:#fff;
