@@ -1,10 +1,10 @@
 ﻿.spider_form{padding:20px 100px 30px;}
 .spider_page h2{height:30px;font-size:14px;font-weight:bold;line-height:30px;border-bottom:1px solid #ddd;margin-bottom:15px;color:#4668B0;}
 .spider_page input.ipt{width:auto}
-.spider_form span.btn_bg{margin-right:30px;margin-top:10px;}
+span.btn_bg{margin-right:30px;margin-top:10px;}
 .monitor_list{padding-bottom:10px;}
 .title{height:30px;line-height:30px;font-size:14px;color:#4668B0;font-weight:bold;}
-
+.spider_monitor{padding:10px 30px;}
 
 .testdd{
 	border:1px solid #ccc;
