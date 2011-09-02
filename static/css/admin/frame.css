@@ -275,7 +275,6 @@ body{
 	background:-webkit-gradient(linear,0 0,0 100%,from(rgba(255,255,255,0.75)),to(rgba(227,223,223,0.46)));
 	-moz-transition:top 0.1s ease-in;
 	-webkit-transition:top 0.1s ease-in;
-	position:relative;
 }
 .spider_srh{width:260px;position:absolute;right:10px;top:0;text-align:right;}
 .spider_srh .int{width:140px;padding-left:20px;border:1px solid #AEAEAE;height:20px;background:#fff url(../../img/admin/search.png) no-repeat 3px;color:#999;}
