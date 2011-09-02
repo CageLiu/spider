@@ -221,3 +221,7 @@ background:-webkit-linear-gradient(bottom,#eaeaea,#f8f8f8);
 	background:-webkit-gradient(linear,0 0,0 100%,from(rgba(64,163,234,1)),to(rgba(64,163,234,0.5)));
 	color:#FFF;
 }
+
+.spider_page{
+	padding-bottom:20px
+}
