@@ -98,6 +98,10 @@ body{
 	margin-left:3px
 }
 
+.demo .logo span{
+	float:left
+}
+
 
 .demo .userbar{
 	position:absolute;
