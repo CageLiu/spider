@@ -89,6 +89,7 @@ body{
 	text-shadow:1px 1px 2px #ccc;
 	border-right:1px solid #ddd;
 	border-bottom:1px solid #ccc;
+	text-align:center
 }
 
 .demo .logo img{
@@ -97,11 +98,6 @@ body{
 	margin-left:3px
 }
 
-.demo .logo span{
-	float:left;
-	height:30px;
-	line-height:30px
-}
 
 .demo .userbar{
 	position:absolute;
