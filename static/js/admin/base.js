@@ -1,10 +1,11 @@
 $(document).ready(
 	function(){
+		if($.browser.msie){
+			document.write("<div style='font-size:200px;color:#f00;line-height:3em;font-weight:bold;text-align:center'>用IE，要枪毙！</div>");
+		}
 
 /*
- *        if($.browser.msie){
- *            document.write("<div style='font-size:200px;color:#f00;line-height:3em;font-weight:bold;text-align:center'>用IE，要枪毙！</div>");
- *        }
+ *        
  *
  *
  *
